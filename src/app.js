@@ -1,10 +1,10 @@
 const express = require('express');
-const bodyParser = require('body-parser');
+// const bodyParser = require('body-parser');
 const Sentiment = require('sentiment'); // npm install sentiment
 const app = express();
 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(bodyParser.json());
 
 app.post('/analyze', (req, res) => {
   const text = req.body.text || '';

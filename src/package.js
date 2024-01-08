@@ -1,4 +1,4 @@
-const bodyParser = require('body-parser');
+
 const Sentiment = require('sentiment'); // npm install sentiment
 // index.js
 const analyzeText = (text) => {

@@ -2,6 +2,8 @@
  ```bash
  npm i text-analysis-api
  ```
+### Demo
+[Demo](https://txt-analysis.vercel.app/)
 
  ### Usage
  ```bash

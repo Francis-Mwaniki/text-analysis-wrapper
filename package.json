@@ -1,6 +1,6 @@
 {
   "name": "text-analysis-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.20.2",
     "sentiment": "^5.0.2"
   }
 }
